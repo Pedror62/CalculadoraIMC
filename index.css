@@ -1,0 +1,141 @@
+*{
+    padding:0;
+    marging:0;
+}
+body{
+    font-family:roboto, Lato, 'san-serif';
+    background-color:black;
+}
+.hide{
+    display: none !important;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 500px;
+    background-color:rgb(79,79,79);
+   // background-color:#e7bf2d;
+    padding: 20px 15px;
+
+}
+h2{
+    text-align: center;
+    line-height: 26px;
+    color: #fff;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+}
+#calc-btn{
+    background-color:#008061;
+    color: #fff;
+    text-transform: uppercase;
+    
+    
+
+    opacity: 1;
+}
+
+#clear-btn{
+    text-transform: uppercase;
+    background-color: #FF0000;
+     
+}
+#imc-form{
+    background-color: yellow;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    padding: 9px 12px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+} 
+
+.action-control{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    font-weight: 900;
+}
+button{
+    padding: 20px 15px;
+    border-radius: 3px;
+    border: none;
+    margin: 1rem;
+    cursor:pointer;
+    color: #fff;
+    width: 100%;
+    max-width: 50%;
+    flex:1;
+}
+
+/* reult */
+
+#result-container{
+    text-align:center;
+   // line-height: 2rem;
+    text-align: center;
+    color:#000;
+    text-transform:uppercase;
+}
+#imc-nunber{
+font-size:2rem;
+}
+
+#result-container h3{
+    color:#dfdfdf;
+    text-transform:uppercase;
+}
+
+
+#table-header,
+.table-data{
+    display:flex;
+    justify-content:space-between;
+    padding-bottom:1rem;
+    margin-bottom:0,3rem;
+    border-bottom:  1px solid  #808060;
+
+
+}
+#table-header h4,
+.table-data p{
+    flex:1;
+}
+
+#table-header h4:nth-child(3),
+.table-data p:nth-child(3){
+    max-width:80px;
+}
+
+#btn-preto{
+    text-transform: uppercase;
+    background-color: #808080;
+    color:#fff;
+    cursor:pointer;
+}
+#btn-preto:hover{
+    opacity:9;
+}
+
+.good{
+    color:#12db34;
+}
+.low{
+    color:#FFFF00;
+}
+.medium{
+    color:#FFA500;
+}
+.high{
+    color:#FF0001;
+}
